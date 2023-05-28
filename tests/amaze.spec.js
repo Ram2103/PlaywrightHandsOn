@@ -12,7 +12,7 @@ test.beforeEach(async({browser,context}) =>{
 
 test.describe('Amazon flow test', ()=>{
     test('Login test', async ()=>{
-        await loginPage.login('7418144567')
+        await loginPage.login('')
     })
     
     test('Test accessibility @access', async () =>{
