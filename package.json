@@ -1,0 +1,16 @@
+{
+  "name": "playwrighthandson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "play:runTest": " npx playwright test --headed",
+    "play:runTag": " npx playwright test --headed --grep \"@access\"\n"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.29.2"
+  }
+}
